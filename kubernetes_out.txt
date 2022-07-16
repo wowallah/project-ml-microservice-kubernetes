@@ -1,0 +1,11 @@
+(.devops) wowallah@WOWPC:/tmp/project-ml-microservice-kubernetes$ kubectl get pod
+NAME                      READY   STATUS             RESTARTS   AGE
+boston-78d449ffdc-x5jzg   0/1     ImagePullBackOff   0          20m
+(.devops) wowallah@WOWPC:/tmp/project-ml-microservice-kubernetes$ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+(.devops) wowallah@WOWPC:/tmp/project-ml-microservice-kubernetes$ 
